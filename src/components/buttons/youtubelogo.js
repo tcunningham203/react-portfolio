@@ -9,11 +9,11 @@ function YoutubeButton(){
       <button variant="filled" className="github-button " onClick={handleClick}>
       <svg
         
-        width="72"
-        height="72"
+        width="55"
+        height="55"
         viewBox="0 0 3366 3366"
     
-        className="fill-current text-green-500 hover:text-blue-500"
+        className="fill-current text-black-50 transition duration-200  hover:scale-110 hover:text-[#c4302b]"
       
       >
        

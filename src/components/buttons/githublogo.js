@@ -9,11 +9,11 @@ function GitHubButton(){
         <button variant="filled" className="github-button " onClick={handleClick}>
         <svg
           
-          width="72"
-          height="72"
+          width="55"
+          height="55"
         
           viewBox="0 0 1024 1024"
-          className="fill-current text-green-50 hover:text-blue-50"
+          className="fill-current text-black-50 transition duration-200  hover:scale-110 hover:text-gray-400"
         
         >
           <path

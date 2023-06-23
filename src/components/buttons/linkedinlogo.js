@@ -9,11 +9,11 @@ function LinkedInButton(){
         <button variant="filled" className="github-button " onClick={handleClick}>
         <svg
           
-          width="72"
-          height="72"
+          width="55"
+          height="55"
         
-      
-          className="fill-current text-green-500 hover:text-blue-500"
+          viewBox="0 0 72 72"
+          className="fill-current text-black-50 transition duration-200  hover:scale-110 hover:text-[#0A66C2]"
         
         >
             <path

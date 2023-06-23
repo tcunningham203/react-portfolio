@@ -4,6 +4,7 @@ import './App.css';
 import './input.css';
 import LinkedInButton from './components/buttons/linkedinlogo';
 import YoutubeButton from './components/buttons/youtubelogo';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
       <GitHubButton /> <LinkedInButton /> <YoutubeButton />
       <h1>test</h1>test
       </header>
+
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
