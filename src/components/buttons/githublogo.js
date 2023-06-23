@@ -13,7 +13,7 @@ function GitHubButton(){
           height="55"
         
           viewBox="0 0 1024 1024"
-          className="fill-current text-black-50 transition duration-200  hover:scale-110 hover:text-gray-400"
+          className="fill-current text-black-50 transition duration-200  hover:scale-110 hover:text-purple-800"
         
         >
           <path
