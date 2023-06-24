@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <header className="py-1 px-6 text-slate-100 relative flex justify-center items-center">
+    <header className="py-1 lg:px-6 text-slate-100 relative flex justify-center items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="10 215 788 478"

@@ -4,6 +4,7 @@ import ContactPage from './pages/contact';
 import PortfolioPage from './pages/portfolio';
 import AboutPage from './pages/aboutme';
 import Header from './header';
+import Footer from './footer';
 
 function NavBar({ currentPage, handlePageChange }) {
   const [bgColor, setBgColor] = useState('bg-sky-700');
@@ -46,8 +47,8 @@ function NavBar({ currentPage, handlePageChange }) {
 
   return (
     <div className={`flex flex-col h-screen ${bgColor}`} style={{ transition: 'background-color 3s ease' }}>
-    <div className="flex flex-row justify-around">
-      <Header currentPage={currentPage} />
+      <div className="flex flex-row justify-around relative z-10">
+        <Header currentPage={currentPage} />
         <div className="hidden md:block pt-3 ">
           <nav className="flex items-center justify-end py-4 px-6 text-white ">
             <ul className="flex space-x-8">
@@ -83,7 +84,7 @@ function NavBar({ currentPage, handlePageChange }) {
                   Contact
                 </button>
               </li>
-            
+
             </ul>
           </nav>
         </div>
@@ -92,39 +93,39 @@ function NavBar({ currentPage, handlePageChange }) {
       <div className="md:hidden">
         <nav className="flex justify-center text-white">
           <ul className="flex ">
-          <li className={`${currentPage === 'aboutme' ? 'text-orange-300 ' : ''}`}>
-                <button
-                  onClick={() => handlePageChange('aboutme')}
-                  className=" py-4  px-4 nav-link hover:text-orange-300 transition duration-75 hover:scale-125"
-                >
-                  About
-                </button>
-              </li>
-              <li className={`${currentPage === 'portfolio' ? 'text-orange-300 ' : ''}`}>
-                <button
-                  onClick={() => handlePageChange('portfolio')}
-                  className=" py-4  px-4 nav-link hover:text-orange-300 transition duration-75 hover:scale-125 "
-                >
-                  Portfolio
-                </button>
-              </li>
-              <li className={`${currentPage === 'resume' ? 'text-orange-300 ' : ''}`}>
-                <button
-                  onClick={() => handlePageChange('resume')}
-                  className="py-4  px-4 nav-link hover:text-orange-300  transition duration-75 hover:scale-125"
-                >
-                  Resume
-                </button>
-              </li>
-              <li className={`${currentPage === 'contact' ? 'text-orange-300 ' : ''}`}>
-                <button
-                  onClick={() => handlePageChange('contact')}
-                  className=" py-4  px-5 nav-link hover:text-orange-300 transition duration-75 hover:scale-125"
-                >
-                  Contact
-                </button>
-              </li>
-             
+            <li className={`${currentPage === 'aboutme' ? 'text-orange-300 ' : ''}`}>
+              <button
+                onClick={() => handlePageChange('aboutme')}
+                className=" py-4  px-4 nav-link hover:text-orange-300 transition duration-75 hover:scale-125"
+              >
+                About
+              </button>
+            </li>
+            <li className={`${currentPage === 'portfolio' ? 'text-orange-300 ' : ''}`}>
+              <button
+                onClick={() => handlePageChange('portfolio')}
+                className=" py-4  px-4 nav-link hover:text-orange-300 transition duration-75 hover:scale-125 "
+              >
+                Portfolio
+              </button>
+            </li>
+            <li className={`${currentPage === 'resume' ? 'text-orange-300 ' : ''}`}>
+              <button
+                onClick={() => handlePageChange('resume')}
+                className="py-4  px-4 nav-link hover:text-orange-300  transition duration-75 hover:scale-125"
+              >
+                Resume
+              </button>
+            </li>
+            <li className={`${currentPage === 'contact' ? 'text-orange-300 ' : ''}`}>
+              <button
+                onClick={() => handlePageChange('contact')}
+                className=" py-4  px-5 nav-link hover:text-orange-300 transition duration-75 hover:scale-125"
+              >
+                Contact
+              </button>
+            </li>
+
           </ul>
         </nav>
       </div>
@@ -134,6 +135,7 @@ function NavBar({ currentPage, handlePageChange }) {
         {currentPage === 'portfolio' && <PortfolioPage />}
         {currentPage === 'contact' && <ContactPage />}
         {currentPage === 'resume' && <ResumePage />}
+        <Footer />
       </div>
     </div>
   );

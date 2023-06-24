@@ -1,24 +1,21 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import GitHubButton from './buttons/githublogo';
 import YoutubeButton from './buttons/youtubelogo';
 import LinkedInButton from './buttons/linkedinlogo';
 import InstaButton from './buttons/instagramlogo';
 
-function Footer({ currentPage }) {
-
-
+function Footer() {
   return (
-    <footer className="py-4 fixed bottom-0 left-0 w-full">
-      <div className="container mx-auto flex items-center justify-evenly lg:flex-row lg:items-center">
+    <footer className="sticky top-[100vh] py-4">
+      <div className="flex justify-evenly">
         <div className="flex items-center space-x-4">
           <GitHubButton />
           <LinkedInButton />
           <InstaButton />
           <YoutubeButton />
-          
         </div>
       </div>
-      <div className="container mx-auto flex items-center justify-evenly lg:flex-row lg:items-center pt-3">
+      <div className="flex justify-evenly pt-3">
         <p className="text-gray-600">© 2023 Tim Cunningham</p>
       </div>
     </footer>

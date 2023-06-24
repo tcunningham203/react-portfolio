@@ -1,21 +1,13 @@
-import React, { useEffect } from 'react';
-import SvgBg from '../svgbg';
+import React from 'react';
+
 
 function ContactPage() {
-  useEffect(() => {
-   
-    document.body.style.overflow = 'hidden';
-
-    
-    return () => {
-      document.body.style.overflow = 'visible';
-    };
-  }, []);
+ 
 
   return (
-    <div className="relative h-screen overflow-x-auto">
+    <div >
    
-    <SvgBg/>
+    
 
       <div className="flex flex-col flex-1 justify-relative">
         <div className="flex-grow overflow-y-auto sm:container text-justify px-10 md:px-40 mx-auto relative z-10">
