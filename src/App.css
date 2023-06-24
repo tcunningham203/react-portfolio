@@ -1,16 +1,6 @@
 
-header {
-  transition: background-color 0.7s ease;
-}
-footer {
-  transition: background-color 0.7s ease;
-}
-
-nav {
-  transition: background-color 0.7s ease;
-}
 
 div{
-  transition: background-color 0.7s ease;
+  transition: background-color .5s ease;
 }
 
