@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import './input.css';
 import NavBar from './components/navbar';
-import Footer from './components/footer';
 import SvgBg from './components/svgbg';
 function App() {
   const [currentPage, setCurrentPage] = useState('aboutme');

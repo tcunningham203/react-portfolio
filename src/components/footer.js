@@ -6,7 +6,7 @@ import InstaButton from './buttons/instagramlogo';
 
 function Footer() {
   return (
-    <footer className="sticky top-[100vh] py-4">
+    <footer className=" animate-fade-in-footer sticky top-[100vh] py-4">
       <div className="flex justify-evenly">
         <div className="flex items-center space-x-4">
           <GitHubButton />

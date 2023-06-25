@@ -22,9 +22,9 @@
 .animate-fam-pic {
   opacity: 0;
   animation-name: fadeIn;
-  animation-duration: .7s;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out;
-  animation-delay: 2s;
+  animation-delay: 2.1s;
   animation-fill-mode: forwards;
 }
 
@@ -85,13 +85,47 @@
 .animate-fade-in-word {
   opacity: 0;
   animation: fadeAndGrow 1s ease-in-out forwards;
-  animation-delay: calc(0.3s * var(--word-index));
+  animation-delay: calc(0.2s * var(--word-index));
 }
 
 .animate-fade-in-title {
   animation: fadeInUp 1s ease-in-out;
   animation-fill-mode: both;
   opacity: 0;
+}
+
+.animate-fade-in-cards {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out;
+  animation-fill-mode: both;
+}
+
+.animate-fade-in-paragraphs2 p:nth-child(1) {
+  animation-delay: 2s;
+}
+
+.animate-fade-in-cards:nth-child(1) {
+  animation-delay: 1s;
+}
+
+.animate-fade-in-cards:nth-child(2) {
+  animation-delay: 1.2s;
+}
+
+.animate-fade-in-cards:nth-child(3) {
+  animation-delay: 1.4s;
+}
+
+.animate-fade-in-cards:nth-child(4) {
+  animation-delay: 1.6s;
+}
+
+.animate-fade-in-cards:nth-child(5) {
+  animation-delay: 1.8s;
+}
+
+.animate-fade-in-cards:nth-child(6) {
+  animation-delay: 2s;
 }
 
 .animate-fade-in-paragraphs p {
@@ -128,3 +162,23 @@
 
 
 
+
+.animate-fade-in-footer {
+
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3.1s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
