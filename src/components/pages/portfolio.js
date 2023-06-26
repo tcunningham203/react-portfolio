@@ -16,7 +16,7 @@ function PortfolioPage() {
         <div className="animate-expand-line2"></div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center z-10 xl:px-36 md:px-24">
+      <div className="flex flex-col sm:w-4/5 md:w-full md:flex-row items-center z-10 xl:px-36 md:px-24">
         <div className="px-6 z-10">
           <div className="text-center text-justify z-10 animate-fade-in-paragraphs2">
             <p className="md:text-2xl text-lg pt-2 pb-6">

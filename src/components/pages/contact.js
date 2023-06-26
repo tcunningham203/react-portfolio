@@ -2,27 +2,30 @@ import React from 'react';
 
 
 function ContactPage() {
- 
+
 
   return (
-    <div >
-   
-    
+    <div className="flex flex-col items-center mx-auto">
+      <div className="relative w-full z-10">
+        <div className="flex flex-col lg:flex-row">
+          <div className="text-center lg:text-right sm:text-5xl xl:text-6xl p-4 text-2xl lg:pt-6 mx-auto animate-fade-in-title">
+            <div>Let's work together.</div>
+          </div>
+        </div>
+        <div className="animate-expand-line2 "></div>
+      </div>
 
-      <div className="flex flex-col flex-1 justify-relative">
-        <div className="flex-grow overflow-y-auto sm:container text-justify px-10 md:px-40 mx-auto relative z-10">
-
-        <p className="text-gray-600 py-4">
-          Originally from Connecticut, I've called Japan my home for almost ten years. I've gotten married, become a father, and learned that experiences from other cultures can unite us and improve us.
-        </p>
-        <p className="text-gray-600 py-4">
-          For many years, I taught English in Japanese schools, eventually rising to head of the department. In that position, I was tasked with designing the school curriculum, filling it with several years worth of original activities and games. I also had to design hundreds of worksheets for students to practice what they've learned. Targeting sensibilities and learning methods from a different culture has helped me become a more versitile creator.
-        </p>
-        <p className="text-gray-600 py-4">
-          Now, I'm taking those experiences and applying them to a new field: web design. My skills as a curriculum and worksheet designer have allowed me to efficiently plan out and implement CSS elements into my websites. I'm looking forward to my next project!
-        </p>
+      <div className="flex flex-col  items-center z-10 xl:px-36 md:px-24">
+        <div className="px-6 z-10">
+          <div className="text-center text-justify z-10 animate-fade-in-paragraphs2">
+            <p className="md:text-2xl text-lg pt-2 pb-6" >
+              Reach out on one of my socials, or send a message through this site using the form below.
+            </p>
+          </div>
         </div>
       </div>
+
+      
     </div>
   );
 }

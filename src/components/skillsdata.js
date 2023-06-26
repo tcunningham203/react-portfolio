@@ -24,7 +24,7 @@ export const skills = [
         ]
       },
     {
-      name: "Deployment and Delivery",
+      name: "Deployment",
       list: [
         'Heroku',
         'Git',
@@ -37,7 +37,7 @@ export const skills = [
     },
     
     {
-        name: "Server Side Development",
+        name: "Server Side",
         list: [
           'Node.js',
           'Express.js',

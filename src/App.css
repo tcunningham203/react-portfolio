@@ -1,12 +1,17 @@
 
 .animate-expand-line {
   animation: expandLine 2.7s ease-in-out;
- 
   transform-origin: center;
   background-color: black;
   height: 1px;
   width: 80%;
   margin: 0 auto;
+}
+
+@media (min-width: 1536px) {
+  .animate-expand-line {
+    width: 65%;
+  }
 }
 
 .animate-expand-line2 {

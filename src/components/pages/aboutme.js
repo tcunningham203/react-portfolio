@@ -7,7 +7,7 @@ function AboutPage() {
     <div className="flex flex-col items-center mx-auto">
       <div className="relative w-full z-10">
         <div className="flex flex-col lg:flex-row">
-          <div className="w-full lg:w-3/5">
+          <div className="w-full 2xl:w-3/5 xl:w-2/3 lg:w-2/3">
             <div className="text-center lg:text-right sm:text-5xl xl:text-6xl p-4 text-2xl lg:pt-16 mx-auto text-slate-500">
               <span className="animate-fade-in-word" style={{'--word-index': '1'}}>Let's</span>&nbsp;
               <span className="animate-fade-in-word" style={{'--word-index': '1'}}>make</span>&nbsp;
@@ -17,7 +17,7 @@ function AboutPage() {
             </div>
            
           </div>
-          <div className="w-full lg:w-2/5 lg:pe-16">
+          <div className="w-full lg:w-2/5 xl:w-1/4 2xl:w-1/5 lg:pe-24 xl:pe-0">
           <img
               
               className="object-cover h-48 w-400 rounded-lg mx-auto animate-fam-pic"
@@ -29,7 +29,7 @@ function AboutPage() {
         <div className="animate-expand-line "></div>
       </div>
       
-      <div className="flex flex-col md:flex-row items-center z-10 xl:px-36 md:px-24">
+      <div className="flex flex-col md:flex-row sm:w-4/5 xl:w-3/5 items-center z-10 ">
         <div className="px-6 z-10">
           <div className="text-center text-justify z-10 animate-fade-in-paragraphs">
             <p className="md:text-2xl text-lg py-4">Originally from Connecticut, I've called Japan my home for over ten years. I've gotten married, become a father, and learned how experiencing other cultures can unite and improve us.</p>
