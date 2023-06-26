@@ -5,7 +5,7 @@ function Header() {
     <header className="py-1 lg:px-6 text-slate-100 relative flex justify-center items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="10 215 788 478"
+        viewBox="11 215 788 478"
         className="w-1/5 hidden md:block"
       >
         <path

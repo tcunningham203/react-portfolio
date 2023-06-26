@@ -26,7 +26,7 @@ function PortfolioPage() {
         </div>
       </div>
 
-        <div className="projects grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 z-10">
         {projectData.map((project, index) => (
           <div key={index} className="animate-fade-in-cards">
             <Project data={project} />

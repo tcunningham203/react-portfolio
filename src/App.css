@@ -100,6 +100,8 @@
   animation-fill-mode: both;
 }
 
+
+
 .animate-fade-in-paragraphs2 p:nth-child(1) {
   animation-delay: 2s;
 }
@@ -182,3 +184,4 @@
     opacity: 1;
   }
 }
+
