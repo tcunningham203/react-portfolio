@@ -135,7 +135,7 @@ function NavBar({ currentPage, handlePageChange }) {
         {currentPage === 'portfolio' && <PortfolioPage />}
         {currentPage === 'contact' && <ContactPage />}
         {currentPage === 'resume' && <ResumePage />}
-        <Footer />
+        <Footer currentPage={currentPage} />
       </div>
     </div>
   );
