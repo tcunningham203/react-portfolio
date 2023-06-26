@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+A portfolio created with React, which showcases my work as a web developer.
 
-## Available Scripts
+## Table of Contents
+- [Link](#link)
+- [Screenshot](#screenshot)
+- [Usage](#usage)
+- [Development](#development)
+- [Credits](#credits)
 
-In the project directory, you can run:
+## Link
 
-### `npm start`
+This application is deployed on Github Pages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://tcunningham203.github.io/react-portfolio
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshot
 
-### `npm test`
+This is what the application looks like when you're on the portfolio page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![AppScreenshot1](/public/images/screenshot.png?raw=true "Screenshot of Deployed Application- Homepage")
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+When you visit the site for the first time, you are presented with the About page. This page features a picture of me and my family, as well as a bit about me and my motivations as a developer. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clicking on the portfolio button in the nav bar will take you to some highlights from my Github. You can click the Github icon to go to that repository, or you can click the picture to see the deployed application. For the Employee Manager, a backend app, there is no website to link to, so it goes to the github repo instead.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clicking the resume button takes you to a list of skills and technologies that I've learned as a developer. You can also click the button below to download my resume, which is a PDF containing my work history prior to studying coding. 
 
-### `npm run eject`
+Clicking the contact button will take you to a form where you can enter a message. Currently, this form is purely cosmetic per the assignment instructions. A backend will be added in the future. You can also see my email, as well as various social links.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Lastly, there is a footer which also contains social links and appears on all four pages. On the contact page, the footer is faded out, so as not to present redundant information. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Development
+This was a passion project for me because I knew that it would be what I would be showing to future employers. I worked hard to put in lots of little details and make sure everything looked polished. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I tried using Tailwind for the CSS framework, because it was recommended to use with React. It was my first time to use Tailwind, so the whole process felt very, very slow. I'm glad I got some experience with it though, because I think the final product looks good thanks to the greater customization options compared to Bootstrap. I would certainly consider using it again in the future. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Credits
 
-## Learn More
+I used various learning resources like Stack Overflow and W3 schools to help with other random questions I had.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I used the Tailwind documentation many, many times. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
