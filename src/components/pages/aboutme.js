@@ -21,7 +21,7 @@ function AboutPage() {
           <img
               
               className="object-cover h-48 w-400 rounded-lg mx-auto animate-fam-pic"
-              src="./images/IMG_3778.png"
+              src="./react-portfolio/images/IMG_3778.png"
               alt="image description"
             />
           </div>
