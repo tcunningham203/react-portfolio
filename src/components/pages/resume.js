@@ -38,7 +38,7 @@ const skillsData = skills;
         <div className="bg-white bg-opacity-70 rounded-2xl  p-4 flex flex-col justify-between">
           <p className='text-center text-lg pb-2'>Explore my full work history.</p>
           <h3 className="text-2xl text-blue-700 font-bold text-center hover:text-green-700">
-          <a className=''  href='./images/TimCunningham_Resume_Jun2023.pdf' download='Resume - Tim Cunningham' >Download Resume (PDF)</a></h3>
+          <a className=''  href='/react-portfolio/images/TimCunningham_Resume_Jun2023.pdf' download='Resume - Tim Cunningham' >Download Resume (PDF)</a></h3>
         </div>
       </div>
     </div>

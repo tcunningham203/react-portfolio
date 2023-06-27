@@ -6,14 +6,11 @@ import SvgBg from './components/svgbg';
 function App() {
   const [currentPage, setCurrentPage] = useState('aboutme');
 
-  const handlePageChange = (page) => {
-    setCurrentPage(page);
-    window.history.pushState(null, '', `/${page}`);
-  };
+  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     
-    <div className="App" basename="/react-portfolio">
+    <div className="App">
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       <SvgBg/>
       

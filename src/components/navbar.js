@@ -53,36 +53,36 @@ function NavBar({ currentPage, handlePageChange }) {
           <nav className="flex items-center justify-end py-4 px-6 text-white ">
             <ul className="flex space-x-8">
               <li className={`${currentPage === 'aboutme' ? 'text-orange-300 ' : ''}`}>
-                <button
+                <a href="#About" 
                   onClick={() => handlePageChange('aboutme')}
                   className="nav-link hover:text-orange-300 transition duration-75 hover:scale-125"
                 >
                   About
-                </button>
+                </a>
               </li>
               <li className={`${currentPage === 'portfolio' ? 'text-orange-300 ' : ''}`}>
-                <button
+                <a href="#Portfolio"
                   onClick={() => handlePageChange('portfolio')}
                   className="nav-link hover:text-orange-300 transition duration-75 hover:scale-125 "
                 >
                   Portfolio
-                </button>
-              </li>
+                </a>
+              </li> 
               <li className={`${currentPage === 'resume' ? 'text-orange-300 ' : ''}`}>
-                <button
+                <a href="#Resume"
                   onClick={() => handlePageChange('resume')}
                   className="nav-link hover:text-orange-300  transition duration-75 hover:scale-125"
                 >
                   Resume
-                </button>
+                </a>
               </li>
               <li className={`${currentPage === 'contact' ? 'text-orange-300 ' : ''}`}>
-                <button
+                <a href="#Contact"
                   onClick={() => handlePageChange('contact')}
                   className="nav-link hover:text-orange-300 transition duration-75 hover:scale-125"
                 >
                   Contact
-                </button>
+                </a>
               </li>
 
             </ul>
@@ -94,36 +94,36 @@ function NavBar({ currentPage, handlePageChange }) {
         <nav className="flex justify-center text-white">
           <ul className="flex ">
             <li className={`${currentPage === 'aboutme' ? 'text-orange-300 ' : ''}`}>
-              <button
+              <a href="#About"
                 onClick={() => handlePageChange('aboutme')}
                 className=" py-4  px-4 nav-link hover:text-orange-300 transition duration-75 hover:scale-125"
               >
                 About
-              </button>
+              </a>
             </li>
             <li className={`${currentPage === 'portfolio' ? 'text-orange-300 ' : ''}`}>
-              <button
+              <a href="#Portfolio"
                 onClick={() => handlePageChange('portfolio')}
                 className=" py-4  px-4 nav-link hover:text-orange-300 transition duration-75 hover:scale-125 "
               >
                 Portfolio
-              </button>
+              </a>
             </li>
             <li className={`${currentPage === 'resume' ? 'text-orange-300 ' : ''}`}>
-              <button
+              <a href="#Resume"
                 onClick={() => handlePageChange('resume')}
                 className="py-4  px-4 nav-link hover:text-orange-300  transition duration-75 hover:scale-125"
               >
                 Resume
-              </button>
+              </a>
             </li>
             <li className={`${currentPage === 'contact' ? 'text-orange-300 ' : ''}`}>
-              <button
+              <a href="#Contact"
                 onClick={() => handlePageChange('contact')}
                 className=" py-4  px-5 nav-link hover:text-orange-300 transition duration-75 hover:scale-125"
               >
                 Contact
-              </button>
+              </a>
             </li>
 
           </ul>
