@@ -12,13 +12,13 @@ function App() {
   };
 
   return (
-    <Router basename="/react-portfolio">
-    <div className="App">
+    
+    <div className="App" basename="/react-portfolio">
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       <SvgBg/>
       
     </div>
-    </Router>
+    
   );
 }
 
