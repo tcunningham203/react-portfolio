@@ -5,7 +5,7 @@
 export const projects = [
   {
     name: 'CubCare',
-    weblink: 'https://mother-nurture-1kl7y6-4ee4d20f9179.herokuapp.com/',
+    weblink: 'https://cubcare-9dc4e13d9451.herokuapp.com/create-profile',
     gitlink: 'https://github.com/tcunningham203/babysitter-finder',
     pic: '/react-portfolio/images/thumb0.png',
     about: 'Find child care in the Manhattan area.',
