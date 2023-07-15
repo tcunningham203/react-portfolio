@@ -9,7 +9,7 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    
+   // to make changes to the deloyed site, type "npm run build" then "npm run deploy"
     <div className="App">
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       <SvgBg/>

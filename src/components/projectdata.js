@@ -1,5 +1,17 @@
+
+
+// to make changes to the deloyed site, type "npm run build" then "npm run deploy"
+
 export const projects = [
-    {
+  {
+    name: 'CubCare',
+    weblink: 'https://mother-nurture-1kl7y6-4ee4d20f9179.herokuapp.com/',
+    gitlink: 'https://github.com/tcunningham203/babysitter-finder',
+    pic: '/react-portfolio/images/thumb0.png',
+    about: 'Find child care in the Manhattan area.',
+    about2: 'MERN Stack with Tailwind, Apollo, and GraphQL.',
+  },  
+  {
       name: 'Castle Journal',
       weblink: 'https://rocky-fortress-11303.herokuapp.com',
       gitlink: 'https://github.com/tcunningham203/100-famous-castles',
@@ -39,12 +51,5 @@ export const projects = [
       about: 'Manage employees with this command line app.',
       about2: 'Uses Node.js, Inquirer, and MySQL.',
     },
-    {
-      name: 'Work Day Scheduler',
-      weblink: 'https://tcunningham203.github.io/tim-work-day-scheduler',
-      gitlink: 'https://github.com/tcunningham203/tim-work-day-scheduler',
-      pic: '/react-portfolio/images/thumb6.png',
-      about: 'Save hourly events with this basic calendar app.',
-      about2: 'Created with jQuery and DayJS.',
-    },
+   
   ];
