@@ -218,6 +218,14 @@
   opacity: 0;
 }
 
+.animate-fade-in-email {
+  animation: fadeInDown .7s ease-in-out;
+  animation-fill-mode: both;
+  opacity: 0;
+  animation-delay: calc(0.2s * var(--word-index));
+}
+
+
 .animate-fade-in-paragraphs2 p:nth-child(1) {
   animation-delay: .5s;
 }

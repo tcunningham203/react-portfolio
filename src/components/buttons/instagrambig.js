@@ -6,7 +6,7 @@ function InstaBig(){
       };
     return (
         <div>
-        <button className="github-button flex min-w-full fill-current bg-emerald-800 rounded-full text-white transition duration-150   hover:bg-[#ee2a7b] hover:scale-105 p-1" onClick={handleClick}>
+        <button className="flex items-center github-button flex min-w-full fill-current bg-emerald-800 rounded-full text-white transition duration-150   hover:bg-[#ee2a7b] hover:scale-105 p-1 " onClick={handleClick}>
         
         <svg
         
@@ -29,7 +29,7 @@ function InstaBig(){
         transform="matrix(.1 0 0 -.1 0 600)"
       ></path>
     </svg>
-    <p className="px-10 text-xl md:text-2xl pt-5 md:pt-4 " >tin_sensei</p>
+    <p className="text-xl px-10 md:text-2xl " >tin_sensei</p>
         </button></div>
       );
     }

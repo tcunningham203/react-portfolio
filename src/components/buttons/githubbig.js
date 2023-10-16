@@ -6,7 +6,7 @@ function GitHubBig(){
       };
     return (
         <div>
-        <button className="github-button flex min-w-full fill-current bg-emerald-800 rounded-full text-white transition duration-150   hover:bg-purple-950 hover:scale-105 p-1" onClick={handleClick}>
+        <button className="flex items-center github-button flex min-w-full fill-current bg-emerald-800 rounded-full text-white transition duration-150   hover:bg-purple-950 hover:scale-105 p-1" onClick={handleClick}>
         
         <svg
         
@@ -26,7 +26,7 @@ function GitHubBig(){
         </svg>
         
        
-        <p className="px-10 text-xl md:text-2xl pt-5 md:pt-4 " >tcunningham203</p>
+        <p className="text-xl px-10 md:text-2xl" >tcunningham203</p>
         </button></div>
       );
     }

@@ -2,7 +2,7 @@ import React from "react";
 
 function GmailButton() {
   return (
-    <svg  width="55"
+    <svg  width="45"
     height="55" viewBox="52 42 88 66">
       <path fill="#4285f4" d="M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"></path>
       <path fill="#34a853" d="M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"></path>
