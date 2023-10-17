@@ -20,7 +20,7 @@ export const skills = [
           'JSON',
           'AJAX (Fetch API)',
           'HTTP request methods',
-          'GraphQL',
+          'Apollo and GraphQL',
         ]
       },
     {
@@ -41,9 +41,10 @@ export const skills = [
         list: [
           'Node.js',
           'Express.js',
-          'User Authentication',
-          'Template Engines',
+          'User Authentication, BCrypt',
           'MERN Stack',
+          'DBeaver',
+          'Insomnia',
         ]
       },
     {
@@ -64,6 +65,7 @@ export const skills = [
           'Adobe Premiere',
           'Visual Studio Code',
           'Inquirer.js',
+          'Microsoft Word, Excel, Powerpoint',
         ]
       },
   ];

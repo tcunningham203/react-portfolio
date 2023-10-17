@@ -1,6 +1,6 @@
 
 .animate-expand-line {
-  animation: expandLine 2.7s ease-in-out;
+  animation: expandLine 1.7s ease-in-out;
   transform-origin: center;
   background-color: black;
   height: 1px;
@@ -37,8 +37,8 @@
 
 .animate-fade-in-contact {
   opacity: 0;
-  animation: fadeAndGrow2 .4s ease-in-out forwards;
-  animation-delay: calc(0.15s * var(--word-index));
+  animation: fadeAndGrow2 .5s ease-in-out forwards;
+  animation-delay: calc(0.2s * var(--word-index));
 }
 
 .animate-fade-in-contact3 {
@@ -78,7 +78,7 @@
   animation-name: fadeIn;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
-  animation-delay: 2.1s;
+  animation-delay: 1.0s;
   animation-fill-mode: forwards;
 }
 
@@ -128,7 +128,7 @@
 @keyframes fadeInDown {
   0% {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   100% {
     opacity: 1;
@@ -149,14 +149,14 @@
 }
 
 .animate-fade-in-title {
-  animation: fadeInUp 1s ease-in-out;
+  animation: fadeInUp .4s ease-in-out;
   animation-fill-mode: both;
   opacity: 0;
 }
 
 .animate-fade-in-cards {
   opacity: 0;
-  animation: fadeInUp 1s ease-in-out;
+  animation: fadeInUp .7s ease-in-out;
   animation-fill-mode: both;
 }
 
@@ -167,27 +167,27 @@
 }
 
 .animate-fade-in-cards:nth-child(1) {
-  animation-delay: 1s;
+  animation-delay: 0.1s;
 }
 
 .animate-fade-in-cards:nth-child(2) {
-  animation-delay: 1.2s;
+  animation-delay: 0.2s;
 }
 
 .animate-fade-in-cards:nth-child(3) {
-  animation-delay: 1.4s;
+  animation-delay: 0.3s;
 }
 
 .animate-fade-in-cards:nth-child(4) {
-  animation-delay: 1.6s;
+  animation-delay: 0.4s;
 }
 
 .animate-fade-in-cards:nth-child(5) {
-  animation-delay: 1.8s;
+  animation-delay: 0.5s;
 }
 
 .animate-fade-in-cards:nth-child(6) {
-  animation-delay: 2s;
+  animation-delay: 0.6s;
 }
 
 .animate-fade-in-paragraphs p {
@@ -197,19 +197,19 @@
 }
 
 .animate-fade-in-paragraphs p:nth-child(1) {
-  animation-delay: 2.5s;
+  animation-delay: 0.4s;
 }
 
 .animate-fade-in-paragraphs p:nth-child(2) {
-  animation-delay: 2.7s;
+  animation-delay: 0.7s;
 }
 
 .animate-fade-in-paragraphs p:nth-child(3) {
-  animation-delay: 3.0s;
+  animation-delay: 0.8s;
 }
 
 .animate-fade-in-paragraphs p:nth-child(4) {
-  animation-delay: 3.3s;
+  animation-delay: 0.9s;
 }
 
 .animate-fade-in-paragraphs2 p {

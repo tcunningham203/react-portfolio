@@ -46,7 +46,7 @@ function NavBar({ currentPage, handlePageChange }) {
 
 
   return (
-    <div className={`flex flex-col h-screen ${bgColor}`} style={{ transition: 'background-color 3s ease' }}>
+    <div className={`flex flex-col h-screen ${bgColor}`} style={{ transition: 'background-color 1.5s ease' }}>
       <div className="flex flex-row justify-around relative z-10">
         <Header currentPage={currentPage} />
         <div className="hidden md:block pt-3 ">

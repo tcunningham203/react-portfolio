@@ -8,8 +8,8 @@ export default function Skills(props) {
   return (
     <div className="animate-fade-in-cards h-full flex flex-wrap justify-center z-10">
       
-      <div className="z-10 px-2  mb-5" >
-        <div className="bg-white bg-opacity-70 rounded-2xl items-center h-full p-4 flex flex-col justify-center w-72">
+      <div className="z-10 px-2  mb-3" >
+        <div className="bg-white bg-opacity-70 rounded-2xl items-center h-full p-2 flex flex-col justify-center w-72">
           <h3 className="text-2xl font-bold text-center ">{name}</h3>
           <ul className=" list-inside flex-grow ">
         {list.map((item, index) => (

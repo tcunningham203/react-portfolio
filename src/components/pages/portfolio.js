@@ -18,7 +18,7 @@ function PortfolioPage() {
 
       <div className="flex flex-col  items-center z-10 px-5 xl:px-36 md:px-24">
         <div className="px-6 z-10">
-          <div className="text-center sm:text-justify z-10 animate-fade-in-paragraphs2">
+          <div className="text-center sm:text-justify z-10 animate-fade-in-email" >
             <p className="md:text-2xl text-lg pt-2 pb-6" >
               View an application by selecting its picture. Or, select the GitHub icon to be taken to that project's repository.
             </p>

@@ -21,7 +21,7 @@ function ContactPage() {
 
       <div className="flex flex-col  items-center z-10 px-5 xl:px-36 md:px-24">
         <div className=" z-10">
-          <div className="text-center sm:text-justify z-10 animate-fade-in-email" style={{ '--word-index': '1' }}>
+          <div className="text-center sm:text-justify z-10 animate-fade-in-email" >
           
              
            
@@ -60,20 +60,20 @@ function ContactPage() {
         <div className="z-10 mt-4 align-center items-center flex justify-center">
 
           <ul className="space-y-2 md:space-y-8   ">
-            <li className=" animate-fade-in-contact " style={{ '--word-index': '4' }}>
+            <li className=" animate-fade-in-contact " style={{ '--word-index': '2' }}>
               <GitHubBig />
 
             </li>
-            <li className="animate-fade-in-contact" style={{ '--word-index': '5' }}>
+            <li className="animate-fade-in-contact" style={{ '--word-index': '3' }}>
               <LinkedInBig />
 
             </li>
 
-            <li className=" animate-fade-in-contact " style={{ '--word-index': '6' }}>
+            <li className=" animate-fade-in-contact " style={{ '--word-index': '4' }}>
               <InstaBig />
 
             </li>
-            <li className=" animate-fade-in-contact" style={{ '--word-index': '7' }}>
+            <li className=" animate-fade-in-contact" style={{ '--word-index': '5' }}>
               <YoutubeBig />
 
             </li>
