@@ -68,15 +68,15 @@ function ContactPage() {
               <LinkedInBig />
 
             </li>
-
-            <li className=" animate-fade-in-contact " style={{ '--word-index': '4' }}>
-              <InstaBig />
-
-            </li>
-            <li className=" animate-fade-in-contact" style={{ '--word-index': '5' }}>
+            <li className=" animate-fade-in-contact" style={{ '--word-index': '4' }}>
               <YoutubeBig />
 
             </li>
+            <li className=" animate-fade-in-contact " style={{ '--word-index': '5' }}>
+              <InstaBig />
+
+            </li>
+           
 
 
 

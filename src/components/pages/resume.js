@@ -36,12 +36,10 @@ const skillsData = skills;
 
       <div className="z-10 my-3 px-4 animate-fade-in-resume" style={{'--word-index': '4'}}>
         <div className="bg-white bg-opacity-70 rounded-2xl  p-2 flex flex-col justify-between">
-          <p className='text-center text-lg '>Explore my full work history.</p>
-          <h3 className="text-2xl text-blue-700 font-bold text-center hover:text-green-700 p-2">
-          <a className=''  href='/react-portfolio/images/TimCunningham_Resume_Oct2023.pdf' download='Resume - Tim Cunningham' >Download Resume (PDF)</a></h3>
-          <div className=" animate-expand-line2"></div>
-          <h3 className="text-2xl p-2 text-blue-700 font-bold text-center hover:text-green-700">
-          <a className=''  href='https://docs.google.com/document/d/1llq1DX6X4X4ZdicFgtOZx8yR6TEdXid3t6eXNyRES-U' download='Resume - Tim Cunningham' >View Online (Google Docs)</a></h3>
+          <p className='text-center text-lg p-1 '>Explore my full work history.</p>
+      
+          <h3 className="text-xl p-1 text-blue-700 font-bold text-center hover:text-green-700">
+          <a className=''  href='https://docs.google.com/document/d/1llq1DX6X4X4ZdicFgtOZx8yR6TEdXid3t6eXNyRES-U' download='Resume - Tim Cunningham' >View Resume (Google Docs)</a></h3>
         
         </div>
       </div>

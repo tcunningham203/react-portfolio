@@ -9,11 +9,11 @@ function AboutPage() {
         <div className="flex flex-col lg:flex-row">
           <div className="w-full 2xl:w-3/5 xl:w-2/3 lg:w-2/3">
             <div className="text-center lg:text-right sm:text-5xl xl:text-6xl p-4 text-2xl lg:pt-16 mx-auto text-slate-500">
-              <span className="animate-fade-in-word" style={{'--word-index': '0'}}>Let's</span>&nbsp;
-              <span className="animate-fade-in-word" style={{'--word-index': '0'}}>make</span>&nbsp;
-              <span className="animate-fade-in-word text-slate-700" style={{'--word-index': '2'}}>your</span>&nbsp;
-              <span className="animate-fade-in-word text-slate-700" style={{'--word-index': '2'}}>idea</span>&nbsp;
-              <span className="animate-fade-in-word text-black" style={{'--word-index': '5'}}>real.</span>
+              <span className="animate-fade-in-word" style={{'--word-index': '0'}}>Let's make</span>&nbsp;
+           
+              <span className="animate-fade-in-word text-slate-700" style={{'--word-index': '2'}}>your idea</span>&nbsp;
+              <span className="animate-fade-in-word text-slate-900" style={{'--word-index': '5'}}>real.</span>&nbsp;
+             
             </div>
            
           </div>

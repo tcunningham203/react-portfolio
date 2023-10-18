@@ -14,8 +14,9 @@ function Footer() {
         <div className="flex items-center space-x-4">
           <GitHubButton />
           <LinkedInButton />
-          <InstaButton />
           <YoutubeButton />
+          <InstaButton />
+        
         </div>
       </div>
       <div className="flex justify-evenly pt-3">
