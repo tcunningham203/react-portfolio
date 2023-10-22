@@ -17,7 +17,7 @@ function NavBar({ currentPage, handlePageChange }) {
     } else if (currentPage === 'portfolio') {
       colorClass = 'bg-fuchsia-950';
     } else if (currentPage === 'resume') {
-      colorClass = 'bg-stone-600';
+      colorClass = 'bg-stone-900';
     } else if (currentPage === 'contact') {
       colorClass = 'bg-emerald-800';
     }

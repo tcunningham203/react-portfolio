@@ -65,7 +65,7 @@ export const skills = [
           'Adobe Premiere',
           'Visual Studio Code',
           'Inquirer.js',
-          'Microsoft Word, Excel, Powerpoint',
+          'MS Word, Excel, Powerpoint',
         ]
       },
   ];
