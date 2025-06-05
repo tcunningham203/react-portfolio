@@ -15,7 +15,7 @@ function Footer() {
           <GitHubButton />
           <LinkedInButton />
           <YoutubeButton />
-          <InstaButton />
+         
         
         </div>
       </div>

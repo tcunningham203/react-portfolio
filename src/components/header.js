@@ -21,7 +21,7 @@ function Header() {
       </svg>
       <div className=" ">
         <h1 className="text-4xl font-bold md:text-start">Tim Cunningham</h1>
-        <h2 className="text-sm md:block ps-1">Full Stack Developer</h2>
+        <h2 className="text-sm md:block ps-1">multidisciplinary creative</h2>
       </div>
     </header>
   );

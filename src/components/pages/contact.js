@@ -72,10 +72,7 @@ function ContactPage() {
               <YoutubeBig />
 
             </li>
-            <li className=" animate-fade-in-contact " style={{ '--word-index': '5' }}>
-              <InstaBig />
-
-            </li>
+           
            
 
 

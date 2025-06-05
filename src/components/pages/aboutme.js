@@ -33,9 +33,10 @@ function AboutPage() {
         <div className="px-6 z-10">
           <div className="text-center text-justify z-10 animate-fade-in-paragraphs">
             <p className="md:text-2xl text-lg py-4">Originally from Connecticut, I've called Japan my home for over ten years. I've gotten married, become a father, and learned how experiencing other cultures can unite and improve us.</p>
-            <p className="md:text-2xl text-lg py-4">As head of my school's English department, I was tasked with designing the yearly curriculum. Over the years, I've designed hundreds of activities, games, and worksheets for all ages. Targeting a different culture's sensibilities made me a more versatile creator. Training teachers and assigning tasks made me a more effective team leader.</p>
-            <p className="md:text-2xl text-lg py-4">Now, I'm applying my design and leadership experience to a new field: web design.</p>
-            <p className="md:text-2xl text-lg py-4">I'm looking forward to my next project!</p>
+            <p className="md:text-2xl text-lg py-4">Although this portfolio primarily features my work in web design, I've acquired a wide range of skills through various jobs over the years. I've designed games, school curriculums, marketing materials, and have taken on major roles in both management and client relations.</p>
+            <p className="md:text-2xl text-lg py-4">More recently, I've been creating a wide range of documentaries on the YouTube channel Tin Sensei, where I research, write, edit, and market videos. I encourage you to visit the channel, where I'm sure you'll find a topic that interests you.</p>
+            <p className="md:text-2xl text-lg py-4">I love the work I've done in teaching, management, web design, games, and content creation, but I'm always open to new career opportunities, projects, and experiences. And as a US Citizen, I'm available to perform remote work with American businesses.</p>
+            <p className="md:text-2xl text-lg py-4">Thanks for taking an interest in me and my work, and feel free to contact me with any questions or ideas!</p>
           </div>
         </div>
       </div>

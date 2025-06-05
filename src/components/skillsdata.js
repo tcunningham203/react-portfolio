@@ -43,18 +43,17 @@ export const skills = [
           'Express.js',
           'User Authentication, BCrypt',
           'MERN Stack',
-          'DBeaver',
-          'Insomnia',
+          'Insomnia, DBeaver',
         ]
       },
     {
-        name: "Computer Science",
+        name: "Game Development",
         list: [
-          'Algorithms (Searches, Sorts)',
-          'Performance',
-          'Time Complexity',
-          'Big O Notation',
-          'Data Structures',
+          'Visual Studio Code',
+          'GODOT 4',
+          'Unreal Engine 5',
+          'Unity',
+          'Aseprite Sprite Editor',
         ]
       },
       {
@@ -63,7 +62,6 @@ export const skills = [
           'Adobe Photoshop',
           'Adobe Illustrator',
           'Adobe Premiere',
-          'Visual Studio Code',
           'Inquirer.js',
           'MS Word, Excel, Powerpoint',
         ]
